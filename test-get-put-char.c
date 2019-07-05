@@ -4,7 +4,7 @@ int main(void)
 {
     char ch;
     //while((ch = getchar()) != '#'){
-    while((ch = getchar()) != EOF)
+    while((ch = getchar()) != EOF) //按 Enter 或者 Ctrl + D 结束输入
     {
         putchar(ch);
     }
