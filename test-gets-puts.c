@@ -7,7 +7,9 @@ int main(void)
 
     puts("输入一串字符串：");
 
-    gets(words);
+    //gets(words); C11 中去掉
+    //gets_s(words, STLEN);
+    fgets(words, STLEN, stdin);
 
     printf("输出内容：\n");
     
